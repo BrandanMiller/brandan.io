@@ -40,6 +40,6 @@ exports.contactPost = function(req, res) {
   };
 
   transporter.sendMail(mailOptions, function(err) {
-    res.send({ msg: 'Thank you! I\'ll reply as soon as a receive your message. :)' });
+    res.send({ msg: 'Thank you! I\'ll reply as soon as possible.' });
   });
 };

@@ -1,5 +1,6 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRaleway:100,300,600,700,800");
 @import "vendor/bootstrap/bootstrap";
+@import "vendor/font-awesome/font-awesome";
 
 @body-bg: #f4f4f4;
 @line-height-base: 1.57142857;
@@ -138,6 +139,12 @@ footer {
   }
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
 .btn-success {
   border-color: #208a46;
   background: #29b35b linear-gradient(to bottom, #2ec866, #29b35b);
@@ -268,7 +275,8 @@ textarea {
   left: 0;
   margin: auto;
   background-color: transparent;
-  border: 4px solid rgb(63, 81, 181);
+  border: 4px solid rgb(2, 117, 216); // Light Blue
+  // border: 4px solid rgb(255, 76, 60); // Fox Orgnge
   border-radius: 50%;
   border-bottom-color: transparent;
   border-right-color: transparent;
@@ -355,8 +363,20 @@ textarea {
 
 // Introduction
 // -------------------------
-
 .introduction .introduction-footer {
   opacity: 0.4;
   font-size: small;
+}
+
+// Fox Brand
+// -------------------------
+.img-brand {
+  width: 36px;
+  margin: -10px 10px -10px 10px;
+}
+
+// Media Buttons
+// -------------------------
+.btn-media {
+  margin-right: 5px;
 }

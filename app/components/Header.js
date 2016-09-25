@@ -14,7 +14,12 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <IndexLink to="/" className="navbar-brand">Brandan Miller</IndexLink>
+              <IndexLink to="/" className="navbar-brand">
+              <div>
+              <img src="../img/fox/fox.svg" className="img-fluid img-brand" alt="fox icon"/>
+                Brandan Miller
+              </div>
+              </IndexLink>
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">

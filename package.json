@@ -1,7 +1,10 @@
 {
-  "name": "holy-credit",
+  "name": "brandan-io",
   "version": "1.0.0",
-  "description": "My app description",
+  "description": "The homepage for Brandan Miller",
+  "author": "Your Name <brandanmiller@gmail.com>",
+  "analyze": true,
+  "license": "MIT",
   "scripts": {
     "build": "webpack --display-error-details",
     "postinstall": "npm run build",

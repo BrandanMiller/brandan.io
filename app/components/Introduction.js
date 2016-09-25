@@ -11,16 +11,16 @@ class Introduction extends React.Component {
           My name is Brandan Miller.
         </h4>
         <p>
-          I am a full stack software developer creating applications in either .NET or JavaScript stacks as a consultant.
+          I am a full stack software developer with a special interest for web applications.
         </p>
         <p>
-          Currently, I live in the greater Chicago area and I am open meet in person.
+          Currently, I live in Chicago and I am open meet in person, or feel free to contact me through my website.
         </p>
         <p>
-          Please feel free to contact me about anything or look at my code on github.
+          If you're intreseted in what I'm currently working on, you can check it out on github or codepen.
         </p>
         <p className="introduction-footer">
-          Enjoy your stay! :D
+          Enjoy your stay!
         </p>
       </div>
     );
