@@ -1,7 +1,7 @@
 # Brandan.io
 
 ## Synopsis
-This is the personal website of Brandan Miller. The reason this site exists is to help provide a location for myself to host my other projects. A of hub for myself. :D
+This is the personal website of Brandan Miller. The reason this site exists is to help provide a location for myself to host my other projects. A sort of learning hub for myself. :D
 
 ## Configuration
 - **Platform:** Node

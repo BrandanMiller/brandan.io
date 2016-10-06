@@ -28,3 +28,9 @@ bower_components
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# Bundled app after build
+public/js/bundle.js
+
+# Database
+.sqlite3
