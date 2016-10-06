@@ -6,10 +6,11 @@ This is the personal website of Brandan Miller. The reason this site exists is t
 ## Configuration
 - **Platform:** Node
 - **Framework**: Express
-- **Template Engine**: Handlebars
+- **Template Engine**: Pug
 - **CSS Framework**: Bootstrap
-- **CSS Preprocessor**: less
+- **CSS Preprocessor**: Scss
 - **JavaScript Framework**: React
+- **JavaScript Devtools**: Redux
 - **Build Tool**: Webpack
 - **Unit Testing**: Mocha
 - **Database**: SQLite
