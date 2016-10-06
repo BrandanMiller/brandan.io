@@ -33,4 +33,4 @@ Thumbs.db
 public/js/bundle.js
 
 # Database
-.sqlite3
+*.sqlite3
