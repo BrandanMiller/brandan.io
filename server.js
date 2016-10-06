@@ -41,7 +41,7 @@ var compiler = webpack(config);
 var server = require('http').Server(app);
 var io = require('socket.io').listen(server);
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.set('port', process.env.PORT || 3000);
 app.use(compression());
 app.use(sass({ src: path.join(__dirname, 'public'), dest: path.join(__dirname, 'public') }));
