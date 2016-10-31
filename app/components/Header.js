@@ -10,7 +10,6 @@ class Header extends React.Component {
   }
 
   render() {
-    const active = { borderBottomColor: '#3f51b5' };
     const rightNav = this.props.token ? (
       <ul className="nav navbar-nav navbar-right">
         <li className="dropdown">
@@ -28,8 +27,8 @@ class Header extends React.Component {
       </ul>
     ) : (
       <ul className="nav navbar-nav navbar-right">
-        <li><Link to="/login" activeStyle={active}>Log in</Link></li>
-        <li><Link to="/signup" activeStyle={active}>Sign up</Link></li>
+        <li><Link to="/login">Log in</Link></li>
+        <li><Link to="/signup">Sign up</Link></li>
       </ul>
     );
     return (
@@ -42,19 +41,19 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-              <IndexLink to="/" className="navbar-brand">
-                <div>
-                  <img src="../img/fox/fox.svg" className="img-fluid img-brand" alt="fox icon"/>
-                  Brandan Miller
-                </div>
-              </IndexLink>
+            <Link to="/" className="navbar-brand">
+              <div>
+                <img src="../img/fox/fox.svg" className="img-fluid img-brand" alt="fox icon"/>
+                Brandan Miller
+              </div>
+            </Link>
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">
-              <li><IndexLink to="/" activeStyle={active}>Home</IndexLink></li>
-              <li><Link to="/contact" activeStyle={active}>Contact</Link></li>
+              <li><IndexLink to="/">Home</IndexLink></li>
+              <li><Link to="contact">Contact</Link></li>
             </ul>
-            {rightNav}
+            {/*rightNav*/}
           </div>
         </div>
       </nav>

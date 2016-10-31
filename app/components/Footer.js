@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <p>© 2016 Company, Inc. All Rights Reserved.</p>
+        <p><i className="fa fa-code" aria-hidden="true"></i> with <i className="fa fa-heart" aria-hidden="true"></i> and the help of the awesome people Sahat Yalkabov, Igor Hrupin, and many more</p>
       </footer>
     );
   }

@@ -14,7 +14,7 @@ class Introduction extends React.Component {
           I am a full stack software developer with a special interest for web applications.
         </p>
         <p>
-          Currently, I live in Chicago and I am open meet in person, or feel free to contact me through my website.
+          Currently, I live in Chicago and I am open to meet in person, or feel free to contact me through my website.
         </p>
         <p>
           If you're intreseted in what I'm currently working on, you can check it out on github or codepen.
